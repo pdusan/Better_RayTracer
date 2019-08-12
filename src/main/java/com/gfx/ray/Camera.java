@@ -87,4 +87,17 @@ public class Camera {
 
         return res;
     }
+
+    /**
+     * Temps, for removing warnings while working on other aspects
+     */
+    public double getBounces() {
+        return bounces;
+    }
+    public Vector getUp() {
+        return up;
+    }
+    public Point getLook() {
+        return lookingAt;
+    }
 }
