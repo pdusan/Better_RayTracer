@@ -65,14 +65,14 @@ public class Scene {
 
         for (int i = 0; i < surfacesSize; ++i) {
             if (surfaces.item(i).getNodeName() == "sphere") {
-                Node sphere = surfaces.item(i);
+                //Node sphere = surfaces.item(i);
 
-                this.shapes.add(new Sphere(sphere, this.light, this.cam));
+                //this.shapes.add(new Sphere(sphere, this.light, this.cam));
             }
             else if (surfaces.item(i).getNodeName() == "mesh") {
-                Node mesh = surfaces.item(i);
+                //Node mesh = surfaces.item(i);
 
-                this.shapes.add(new Mesh(mesh, this.light, this.cam));
+                //this.shapes.add(new Mesh(mesh, this.light, this.cam));
             }
         }
         
