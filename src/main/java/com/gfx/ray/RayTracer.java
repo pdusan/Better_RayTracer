@@ -1,4 +1,3 @@
-//TODO Finish the examples that were given as part of the assignments
 
 package com.gfx.ray;
 
